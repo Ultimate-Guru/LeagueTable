@@ -1,0 +1,65 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: url(premierleague.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: column
+}
+
+h2 {
+    font-weight: 800;
+    font-size: xx-large;
+    color: hsla(27, 81%, 29%, 0.921);
+    z-index: 1;
+    margin-top: 1%;
+    text-align: center;
+}
+
+table {
+    position: absolute;
+    top: 12%;
+    width: 85vw;
+    height: 100vh;
+    background-color: white;
+    margin-left: 35px;
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background-color: cyan;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+th {
+    background-color: burlywood;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px;
+}
+
+td {
+    font-weight: 700;
+    font-size: 15px;
+    color: #212121;
+    padding: 5px;
+}
